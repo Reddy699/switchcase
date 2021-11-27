@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+int a=5,b=4;
+printf("select your choice:1.a+b\n2.a-b\n3.a*b\n.4a%b");
+scanf("%d",&choice);
+}
+switch(choice)
+{
+case1:printf("addition is:");
+break;
+case2:printf("subtraction is:");
+break;
+case3:printf("multiplication is:");
+break;
+case4:printf("division is:");
+break;
+default;
+printf("invalid choice");
+}
+}
