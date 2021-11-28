@@ -2,7 +2,7 @@
 main()
 {
 int a=5,b=4;
-printf("select your choice:1.a+b\n2.a-b\n3.a*b\n.4a%b");
+printf("select your choice:\n1.a+b\n2.a-b\n3.a*b\n.4a%b");
 scanf("%d",&choice);
 }
 switch(choice)
